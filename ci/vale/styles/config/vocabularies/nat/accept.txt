@@ -20,6 +20,7 @@ Authlib
 [Bb]ackpressure
 [Bb]atcher
 [Bb]oolean
+Braintrust
 [Bb]rev
 [Cc]allable(s?)
 # Documentation for ccache only capitalizes the name at the start of a sentence https://ccache.dev/

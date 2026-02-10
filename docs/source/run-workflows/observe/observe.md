@@ -67,6 +67,7 @@ The following table lists each exporter with its supported features and configur
 
 | Provider | Integration Documentation | Supported Features |
 | -------- | ------------------------- | ------------------ |
+| [Braintrust](https://www.braintrust.dev/) | [Observing with Braintrust](?provider=Braintrust#provider-integration-guides){.external} | Logging, Tracing, Evaluation, Human Review |
 | [Catalyst](https://catalyst.raga.ai/) | [Observing with Catalyst](?provider=Catalyst#provider-integration-guides){.external} | Logging, Tracing |
 | [NVIDIA Data Flywheel Blueprint](https://build.nvidia.com/nvidia/build-an-enterprise-data-flywheel) | [Observing with Data Flywheel](?provider=Data-Flywheel#provider-integration-guides){.external} | Logging, Tracing |
 | [DBNL](https://distributional.com/) | [Observing with DBNL](?provider=DBNL#provider-integration-guides){.external} | Logging, Tracing |
@@ -188,6 +189,13 @@ For complete information about developing and integrating custom telemetry expor
 
 ::::{tab-set}
   :sync-group: provider
+
+  :::{tab-item} Braintrust
+  :sync: Braintrust
+
+    :::{include} ./observe-workflow-with-braintrust.md
+
+  :::
 
   :::{tab-item} Catalyst
   :sync: Catalyst
